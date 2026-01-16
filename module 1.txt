@@ -1,0 +1,19 @@
+1. command line means command prompt itself. for that we need to install python, open cmd, Go to the folder where your Python file is located using cmd, Run the Python file using this command: python filename.py, output will come.
+
+2. If both Python 2 and 3 are installed, they can coexist, and we can run a specific version using commands like py -2, py -3, python2, or python3. By the way Python 2 is dead (EOL) so prefering Python 3 for new projects is better.
+
+3. Python does not need manual compilation; it automatically compiles .py files into bytecode (.pyc) before execution, but we can manually compile using python -m py_compile filename.py 
+
+4. Python modules are installed using the pip tool with the command pip install module_name.
+
+5. for adding Python to PATH: On Windows, check “Add Python to PATH” during installation or add the Python install folder to Environment Variables.
+
+6. Python executes code from top to bottom, line by line.
+
+7. Yes, Python is an interpreted language bcz it executes code, line by line using an interpreter without manual compilation.
+
+8. Python is easy to learn, it has simple syntaxes, a huge library ecosystem, is cross-platform, and also supports rapid development.
+
+9. Python is used in web development, data science, AI/ML, automation, scripting, desktop apps and also in game development.
+
+10. Python is used in web development, data science, AI/ML, automation, cloud, DevOps, cybersecurity, and IoT.
