@@ -1,0 +1,47 @@
+1.  python -m py_compile filename.py
+
+2.  On Windows, download from python.org and check “Add Python to PATH” during install; 
+	on Linux, use sudo apt install python3 and set PATH if needed.
+
+3.  for i in range(4):
+      print("4")
+
+4. 	x = input("Enter value: ")
+	if x == "True":
+    		print(True)
+	else:
+    		print(type(x))
+
+5.  	path = input("Enter path: ")
+	print("You entered:", path)
+
+6.  	print("Welcome to Python Training!")
+
+7. 		a = 10
+		b = 3.5
+		c = "Hello"
+		d = True
+
+		print(type(a), type(b), type(c), type(d))
+
+8. 	name = input("Enter name: ")
+	age = input("Enter age: ")
+	print("Name:", name, "Age:", age)
+
+9. 		a = 10
+		b = 3.5
+		print(float(a))
+		print(int(b))
+
+10. 		n = int(input("Enter number: "))
+
+		if n > 0:
+    			print("Positive")
+		elif n < 0:
+    			print("Negative")
+		else:
+    			print("Zero")
+
+
+
+
