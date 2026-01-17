@@ -1,0 +1,25 @@
+1.  The print() function returns None in Python or if any matter is mentoned in that, that one displays in that.
+
+2. By using input() to take user input and print() to display the output.
+
+3. 	data = [44, 5.33, "Arif", True, 6+1h, None]
+	safest-list = []
+	for x in data:
+    		try:
+        		safest-list.append(x)
+    		except:
+        		pass
+	print(safest-list)
+
+4. 	data = [55, 4.11, "Hannu", True, 9+4a, None]
+	safe-items = []
+	for x in data:
+    		try:
+        		safe-items.append(x)
+    		except:
+        		pass
+	my_tuple = tuple(safe-items)
+	print(my_tuple)
+
+8. List is mutable, slower, and written with [], while Tuple is immutable, faster, and written with ().
+
