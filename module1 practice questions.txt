@@ -1,0 +1,42 @@
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+print("Sum =", a + b)
+
+name = input("Enter your name: ")
+age = input("Enter your age: ")
+print(f"hii {name}, you are {age} years old")
+
+km = float(input("Enter kilometers: "))
+print("Kilometers to Miles is =", km * 0.6)
+
+length = int(input("Enter the length :"))
+breadth = int(input("Enter the breadth :"))
+print(" Area of Triangle =", length * breadth * 0.5)
+
+a = input("Enter a value: ")
+print(type(a))
+
+principal = int(input("Enter the principal amount:"))
+time = int(input("Enter the time:"))
+rate = int(input("Enter the rate:"))
+print("Simple interest =", principal * rate * time/100)
+
+marks = float(input("Enter marks obtained: "))
+total = float(input("Enter total marks: "))
+print("Percentage =", (marks/total)*100)
+
+h = float(input("Enter hours: "))
+print("Minutes =", h * 60)
+print("Seconds =", h * 3600)
+
+h = float(input("Enter height in meters: "))
+w = float(input("Enter weight in kg: "))
+print("BMI =", w / (h*h))
+
+c = float(input("Enter temperature in Celsius: "))
+f = (c * 9/5) + 32
+print("In Fahrenheit =", f)
+f = float(input("Enter temperature in Fahrenheit: "))
+c = (f - 32) * 5/9
+print("In Celsius =", c)
+
